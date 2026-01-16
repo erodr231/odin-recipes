@@ -45,11 +45,11 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 :root{
     --primary: #6B8E7F; 
     /* Used for buttons, links, highlights, icons. */
     --secondary: #D4A373;
-    
     --background: #FAF9F6;
     --card-bg: #F3EFEA;
     --text-main: #2E2E2E;
@@ -77,12 +77,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
 img{
     display: block;
     width: 500px;
     height: auto;
     margin: 0 auto;
-    
 }
 
 h1, h2 {
@@ -116,6 +116,19 @@ p {
 
 ol{
     list-style-type:lower-roman;
+}
+
+.recipe-card{
+    width: 550px;
+    height: auto;
+    border: var(--primary) 3px solid;
+    border-radius: 20px;
+    background-color: var(--card-bg);
+    margin: 0 auto;
+}
+
+div h1{
+    padding-top: 5px;
 }
 
 .home-button:hover, 
