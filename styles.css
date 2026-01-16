@@ -49,10 +49,16 @@ table {
     --primary: #6B8E7F; 
     /* Used for buttons, links, highlights, icons. */
     --secondary: #D4A373;
+    
     --background: #FAF9F6;
     --card-bg: #F3EFEA;
     --text-main: #2E2E2E;
     --text-muted: #6F6F6F;
+}
+
+a{
+    text-decoration: none;
+    color: var(--background);
 }
 
 body{
@@ -60,14 +66,49 @@ body{
     color: var(--text-main);
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+img{
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    
 }
 
-h1 {
+h1, h2 {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 10px;
 }
 
-ul{
-    font-size: 20px;
+h2{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+p {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.home-buttons{
+    width: 300px;
+    height: auto;
+    background-color: var(--primary);
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5px auto;
+}
+
+ol{
+    list-style-type:lower-roman;
+}
+
+.home-buttons:hover{
+    background-color: var(--secondary);
 }
