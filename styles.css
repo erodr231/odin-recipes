@@ -56,7 +56,16 @@ table {
     --text-muted: #6F6F6F;
 }
 
+.home-button{
+    display: inline-block;
+    background-color: var(--primary);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 a{
+    display: block;
     text-decoration: none;
     color: var(--background);
 }
@@ -95,7 +104,7 @@ p {
 
 }
 
-.home-buttons{
+.button{
     width: 300px;
     height: auto;
     background-color: var(--primary);
@@ -109,6 +118,7 @@ ol{
     list-style-type:lower-roman;
 }
 
-.home-buttons:hover{
+.home-button:hover, 
+.button:hover{
     background-color: var(--secondary);
 }
